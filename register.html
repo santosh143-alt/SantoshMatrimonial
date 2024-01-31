@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h1>Register Form</h1>
+    <h2>All fields are mandatory**</h2>
+    <form class="" action="thanks.html" method="post">
+
+      <label for="name">Enter Name: </label>
+      <input id="name" type="text" name="username" placeholder="Enter Username" pattern=",{5,10}" title="Username should be minimum of 5 characters and maximum of 10 characters" required> <br><br>
+      <label for="email">Enter Email: </label>
+      <input id="email" type="email" name="email" placeholder="Enter Email" required> <br><br>
+      <label for="age">Enter Age: </label>
+      <input id="age" type="text" name="age" placeholder="Enter age" required>
+
+      <h2>Are You Interested in Dating: </h2>
+      <label for="y">Yes</label>
+      <input id="y" type="radio" name="dating" value="yes">
+      <label for="n">No</label>
+      <input id="n" type="radio" name="dating" value="no">
+
+
+      <h2>Your expectations like: </h2>
+      <select class="" name="expected">
+        <option value="kd">Katrina Kaif</option>
+        <option value="kp1">Karina Kapoor</option>
+        <option value="kp">Karishma Kapoor</option>
+        <option value="rs">Rakhi Sawant</option>
+      </select>
+       <br> <br>
+
+       <h2>How many marriages you like: </h2>
+        <select class="" name="" >
+         <option value="">1</option>
+         <option value="">2</option>
+         <option value="">3</option>
+         <option value="">4</option>
+       </select>
+       <br><br>
+
+       <h2>Are you heavy alcoholic: </h2>
+       <input type="checkbox" name="Yes" value="y">Yes
+       <input type="checkbox" name="No" value="n">No
+       <input type="checkbox" name="On occational only" value="oc">On occational only
+       <br><br>
+
+       <h2>You preferences and Extra Information: </h2>
+       <textarea name="preferences" rows="8" cols="80"></textarea>
+       <br><br>
+      <input type="submit" name="Signup" value="Signup">
+    </form>
+
+  </body>
+</html>
